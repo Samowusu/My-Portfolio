@@ -17,6 +17,17 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Portfolio = styled.div`
+  display: "flex";
+  align-content: "center";
+  color: "white";
+  margin-bottom: 20px;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin-bottom: 0;
+  }
+`;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;

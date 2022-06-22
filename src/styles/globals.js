@@ -16,8 +16,8 @@ ${normalize};
   body {
     font-family: ${(props) => props.theme.fonts.main};
     font-size: 1.6rem;
-    background: ${(props) => props.theme.colors.background1};
-    color: ${(props) => props.theme.colors.primary1};
+    background: ${(props) => props.theme.colors.primaryBackground};
+    color: ${(props) => props.theme.colors.primary};
     cursor: default;
   }
   h1,h2,h3,h4,h5,h6,button {

@@ -76,7 +76,7 @@ export const CarouselItemTitle = styled.h4`
     #ffffff 10%,
     rgba(255, 255, 255, 0.66) 30.15%
   );
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
 
@@ -93,11 +93,7 @@ export const CarouselItemTitle = styled.h4`
 `;
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
-  -webkit-mask-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 1),
-    rgba(0, 0, 0, 0)
-  );
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   width: 100%;
 
   @media ${(props) => props.theme.breakpoints.sm} {
