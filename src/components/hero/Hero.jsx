@@ -13,14 +13,15 @@ const Hero = () => {
     <Section row>
       <LeftSection>
         <Background>
-          <SectionTitle main>
+          <SectionTitle main color="black">
             Welcome To <br /> My World
           </SectionTitle>
         </Background>
         <SectionText>
-          I am an experienced Software Engineer who specialises in building
-          quality websites and mobile applications with HTML, CSS and
-          JavaScript.
+          I am an experienced Software Engineer from West Africa, Ghana, who
+          specialises in building quality websites and mobile applications with
+          HTML, CSS and JavaScript. I am opened to any web and mobile
+          development role. Do send a mail 😀
         </SectionText>
         <Button
           onClick={() =>

@@ -1,7 +1,7 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiGitMerge } from "react-icons/di";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiRedux } from "react-icons/si";
+import { SiRedux, SiFigma, SiAdobexd } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -24,7 +24,7 @@ const Technologies = () => {
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
         I have a proven history of working with a wide range of technologies in
-        the world of web development.
+        the world of web development. Some of which have been listed below...
       </SectionText>
       <List>
         <ListItem>
@@ -49,6 +49,30 @@ const Technologies = () => {
           <ListContainer>
             <SiRedux size="2.5rem" />
             <ListParagraph>Redux</ListParagraph>
+          </ListContainer>
+        </ListItem>
+        <ListItem>
+          <ListContainer>
+            <DiFirebase size="3rem" />
+            <ListParagraph>Firebase</ListParagraph>
+          </ListContainer>
+        </ListItem>
+        <ListItem>
+          <ListContainer>
+            <DiGitMerge size="3rem" />
+            <ListParagraph>Git</ListParagraph>
+          </ListContainer>
+        </ListItem>
+        <ListItem>
+          <ListContainer>
+            <SiFigma size="2.5rem" />
+            <ListParagraph>Figma</ListParagraph>
+          </ListContainer>
+        </ListItem>
+        <ListItem>
+          <ListContainer>
+            <SiAdobexd size="2.5rem" />
+            <ListParagraph>Adobe XD</ListParagraph>
           </ListContainer>
         </ListItem>
       </List>
